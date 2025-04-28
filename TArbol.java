@@ -1,4 +1,4 @@
-public class TArbol<T> {
+public class TArbol<T extends Comparable<T>> {
     private TElemento<T> raiz;
     private int contadorInserciones;
 
