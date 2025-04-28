@@ -34,4 +34,9 @@ public class TArbol<T extends Comparable<T>> {
     private boolean esVacio() {
         return raiz == null;
     }
+
+
+    public TElemento<T> getRaiz() {
+        return raiz;
+    }
 }
